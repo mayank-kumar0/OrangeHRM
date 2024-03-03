@@ -27,6 +27,5 @@ public class Attachments extends Login {
 		WebElement save = driver.findElement(By.xpath("//button[normalize-space()='Save']"));
 		save.click();
 		System.out.println("Attachment is Saved");
-
 	}
 }

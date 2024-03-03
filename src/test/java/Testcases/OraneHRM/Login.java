@@ -21,7 +21,7 @@ public class Login {
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 
 		System.out.println("Driver Openend and Site opened");
-		WebElement username = driver.findElement(By.xpath("//input[@name='username']"));
+		WebElement username = driver.findElement(By.xpath("//input[@placeholder='Username']"));
 		username.click();
 		username.sendKeys("Admin");
 		System.out.println("Login ID Entered");
