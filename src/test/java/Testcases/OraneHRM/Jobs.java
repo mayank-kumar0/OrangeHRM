@@ -19,11 +19,11 @@ public class Jobs extends Login {
 		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 		System.out.println("Clicked on Job");
 
-		WebElement slider = driver
-				.findElement(By.xpath("//span[@class='oxd-switch-input oxd-switch-input--active --label-right']"));
-		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
-		slider.click();
-		System.out.println("Clicked on button now its showing Contract Details");
+//		WebElement slider = driver
+//				.findElement(By.xpath("//div[@class='oxd-grid-3 orangehrm-full-width-grid']"));
+//		driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+//		slider.click();
+//		System.out.println("Clicked on button now its showing Contract Details");
 
 	}
 }
